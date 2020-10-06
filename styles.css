@@ -1,0 +1,96 @@
+@keyframes bgcolor {
+    0% {
+        background-color: #45a3e5
+    }
+
+    30% {
+        background-color: #66bf39
+    }
+
+    60% {
+        background-color: #eb670f
+    }
+
+    90% {
+        background-color: #f35
+    }
+
+    100% {
+        background-color: #864cbf
+    }
+}
+
+body {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 10;
+  width: 100%;
+  text-align: center;
+  transition: top 0.3s;
+}
+
+.navbar a {
+  display: inline-block;
+  padding: 0px 5px;
+  margin: 10px;
+  text-decoration: none;
+  border-radius: 20px;
+  border: 1px solid white;
+  color: white;
+}
+
+.navbar a:hover {
+  color: grey;
+  border-color: grey;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  display: block;
+  padding-top: 150px;
+  color: white;
+}
+
+.works {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  margin-top: 140px;
+}
+
+.works img {
+  width: 20%;
+  height: 225px;
+  padding: 20px;
+  margin: 5px;
+  background-color: white;
+}
+
+.about {
+  color: white;
+  width: 50%;
+  margin: auto;
+  margin-top: 80px;
+  font-size: 18px;
+}
+
+.contact {
+  color: white;
+  width: 25%;
+  margin: auto;
+  margin-top: 80px;
+  font-size: 18px;
+}
+
+.contact a {
+  color: white;
+  text-decoration: none;
+}
